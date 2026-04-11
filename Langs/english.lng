@@ -1,0 +1,27 @@
+
+
+[File]
+Name=AIMP Floating Lyrics Plugin
+Abbreviation=Floating Lyrics
+
+[Preference]
+ShowDebugLog=Show Debug Log
+EditPreference=Edit Plugin Preference
+LatinFont=Choose Latin Text Font
+Font=Choose Main Text Font
+FontSize=Change Text Font Size
+PlayStyle=Change Lyric Play Style
+
+[LyricsEditor]
+StartEdit=Make / Edit Lyrics
+Name=Lyrics Editor
+InsertTimestamp=Insert Timestamp
+ReplaceTimestamp=Replace Timestamp
+RemoveTimestamp=Remove Timestamp
+
+[ContextMenu]
+ResetPositionSize=Reset Position And Size
+CenterHorizontally=Center Window Horizontally
+EnableResizing=Enable Resizing
+DisableResizing=Disable Resizing
+Preference=Preferences....
