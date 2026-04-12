@@ -1,4 +1,4 @@
-# AIMP-Floating-Lyrics-Plugin-Translations
+# AIMP-Floating-Lyrics-Plugin-Localization
 
 > Also see [Post on AIMP Forum](https://aimp.ru/forum/index.php?topic=77574.0).
 
