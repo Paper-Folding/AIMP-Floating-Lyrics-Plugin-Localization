@@ -41,6 +41,13 @@ To install and use this plugin,
 
 ### Change Logs
 
+#### 1.0.2 (2026.04.19)
+
+- Re-write preference window user interface to make it have a modern look
+- Add an option to enable/disable click-through lyrics playing window(note that when background is set to a transparent color, the click-through feature is always enabled)
+- Fix an issue causing context menu's text and icon blurry
+- Other minor stability optimizations and adjustments
+
 #### 1.0.1 (2026.04.15)
 
 - Now supports both AIMP 5 x86 and x64! Make sure to download corresponding zip file and install corresponding runtime packages (see "How to Install & Use" section below)
