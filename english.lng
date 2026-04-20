@@ -1,27 +1,54 @@
+# Encoding: UTF-8
 
 
-[File]
-Name=AIMP Floating Lyrics Plugin
+[FL_Main]
+Name=Floating Lyrics Plugin
 Abbreviation=Floating Lyrics
 
-[Preference]
+[FL_Preference]
+Preference=Preference
+PlayStyleGroupTitle=Play Style
+PlayStyleOption=Lyrics Play Style
+InactiveOpacityOption=Inactive Line Opacity
+
+TextShadowGroupTitle=Text Shadow Settings
+Color=Color
+Depth=Depth
+BlurRadius=Blur Radius
+Angle=Angle
+Opacity=Opacity
+
+FontSettingsGroupTitle=Font Settings
+FontLatin=Latin Font
+FontMain=Main Font
+FontSize=Size
+Weight=Weight
+
+WindowSettingsGroupTitle=Window Settings
+BackgroundColor=Background Color
+ClickThrough=Click-Through
+Off=Off
+On=On
+
+MiscellaneousGroupTitle=Miscellaneous
 ShowDebugLog=Show Debug Log
-EditPreference=Edit Plugin Preference
-LatinFont=Latin Font
-Font=Main Font
-FontSize=Font Size
-PlayStyle=Lyrics Play Style
+Show=Show
+Hide=Hide
+
+Save=Save & Apply
+Apply=Apply
+Cancel=Cancel
 
 [LyricsEditor]
-StartEdit=Make / Edit Lyrics
 Name=Lyrics Editor
 InsertTimestamp=Insert Timestamp
 ReplaceTimestamp=Replace Timestamp
 RemoveTimestamp=Remove Timestamp
 
-[ContextMenu]
+[LyricsPlayingWindow]
+StartEditLyrics=Make / Edit Lyrics
 ResetPositionSize=Reset Position And Size
 CenterHorizontally=Center Window Horizontally
 EnableResizing=Enable Resizing
 DisableResizing=Disable Resizing
-Preference=Preferences....
+OpenPreference=Preferences....
