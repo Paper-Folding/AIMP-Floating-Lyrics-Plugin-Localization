@@ -40,6 +40,11 @@ To install and use this plugin,
 ![Configuration Panel in AIMP](/screenshots/configuration_panel_in_AIMP.jpg)
 
 ### Change Logs
+#### 1.0.3 (2026.04.21)
+
+- Support multi-language lrc file as 17hapi on AIMP forum suggests
+- Change default font family to make UI look better
+- Optimize lang files entries, enhance Chinese translations
 
 #### 1.0.2 (2026.04.19)
 
