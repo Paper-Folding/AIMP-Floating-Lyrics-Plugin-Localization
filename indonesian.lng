@@ -1,0 +1,89 @@
+# Encoding: UTF-8
+
+
+[FL_Main]
+Name=Plugin Lirik Mengambang
+Abbreviation=Lirik Mengambang
+Toggle=Tombol
+
+[FL_Preference]
+ResetDimension=Kembalikan Ukuran Jendela ini
+Preference=Preferensi
+PlayStyleGroupTitle=Style Pemutaran
+PlayStyleOption=Style Pemutaran Lirik
+PlayStyle_FadeInOut= Satu Baris Fade In & Out
+PlayStyle_HScroll=Gulir Horizontal
+PlayStyle_TwoLine=Dua Baris Fade In & Out
+Opacity=Opasitas
+InactiveOpacityOption=Opasitas Baris Nonaktif
+FadeDuration=Durasi Maksimal Fade Animasi
+LetterSpacingAnimationSpeed=Kecepatan Animasi Spasi Antar Huruf
+LetterSpacingAnimationSpeedDescription=Dengan mengatur preferensi ke value non-zerp, animasi marquee akan dimatikan sementara spasi antar huruf akan dianimasikan.
+TwoLineReverse=Tukar Posisi Dua Baris'
+TwoLineVerticalGap=Pemisah Dua' Baris
+
+TextShadowGroupTitle=Pengaturan Bayangan Teks
+ToggleTextShadow=Diaktifkan?
+Color=Warna
+OffsetX=Pergeseran Horizontal
+OffsetY=Pergeseran Vertikal
+BlurRadius=Blur Radius
+
+TextStrokeGroupTitle=Pengaturan Teks Stroke
+TextStrokeThickness=Thickness
+
+FontSettingsGroupTitle=Pengaturan Fon
+FontLatin=Fon Latin
+FontMain=Fon Utama
+FontSize=Ukuran
+Weight=Besar
+LetterSpacing=Huruf Pemisah
+
+WindowSettingsGroupTitle=Pengaturan Jendela
+BackgroundColor=Warna Latar
+EdgeFeatherWidth=Lebar Bulu Tepi
+ClickThrough=Melalui-Klik
+AlwaysHideTaskbar=Selalu Sembunyikan di Taskbar
+AlwaysHideTaskbarDescription=[PERINGATAN] Jika fitur ini diaktifkan, jendela lirik mengambang juga akan meminimalkan jika mengklik kanan atas tombol di jendela utama AIMP, untuk mencegah ini, anda bisa meminimalkan AIMP 1. gunakan menu konteks ikon baki - "Minimalkan ke Baki"; 2. Atau dengan mengatur tindakan tetikus apapun(seperti Sekali-Klik) untuk "Tampilkan/Sembunyikan Jendela Utama", dan mimalkan AIMP dengan melakukan hal tersebut.
+HideWhenNoLyrics=Sembunyikan Jika Tidak Ada Lirik
+Off=Nonaktif
+On=Aktif
+
+MiscellaneousGroupTitle=Lain-lain
+Show=Tampilkan
+Hide=Sembunyikan
+
+Save=Simpan & Terapkan
+Apply=Terapkan
+Cancel=Batal
+
+Unit_px=(px)
+Unit_ch=(char)
+Unit_px_per_s=(px/s)
+Unit_ms=(ms)
+
+[LyricsEditor]
+Name=Penyunting Lirik
+InsertTimestamp=Sisipkan Timestamp
+InsertTimestampDetail=Sisipkan Timestamp untuk Baris Saat Ini
+ReplaceTimestamp=Timpa Timestamp
+ReplaceTimestampDetail=Timpa Timestamp di Baris Saat Ini
+RemoveTimestamp=Hapus Timestamp
+RemoveTimestampDetail=Hapus Timestamp dari Baris Saat Ini
+
+[LyricsPlayingWindow]
+StartEditLyrics=Buat / Sunting Lirik
+ResetPositionAndDimension=Kembalikan Posisi & Dimensi
+CenterHorizontally=Jendela Horizontal Tengah
+EnableResizing=Aktikan Ubah Ukuran
+DisableResizing=Matikan Ubah Ukuran
+OpenPreference=Preferensi....
+WebViewNotInstalled=Edge WebView2 is tidak terinstal di sistem anda, apakah anda ingin mengunduhnya?
+WebViewNotInstalled2=Edge WebView2 tidak terinstal di sistem anda, plugin mungkin tidak akan bekerja >.<, anda bisa mengunduh dan menginstalnya dari
+WebViewLowVersion=Anda menggunakan versi lama({0} < 124) dari Edge WebView2, mungkin Plugin Lirik Mengambang tidak berfungsi sebagai mana mestinya. Anda bisa mencoba untuk memperbarui Peramban Edge anda.
+WebViewNavigationFailure=Edge WebView2 gagal dinavigasikan >.< Periksa jika anda menyalin berkas plugin dengan benar. Jika masalah ini masih berlanjut, silahkan laporkan ke pengembang, terima kasih!
+
+[FL_OptionFrame]
+BtnOpenPreferenceWindow=Buka Jendela Preferensi
+BtnResetLyricsWindowLocation=Kembalikan Posisi Jendela Pemutaran dan Dimensi
+BtnDisableClickThrough=Nonaktifkan Jendela Pemutaran Lirik Klik-Lanjutkan
