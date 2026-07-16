@@ -24,6 +24,12 @@ LetterSpacingAnimationSpeedDescription=By setting to a non-zero value, marquee a
 TwoLineReverse=Swap Two Lines' Position
 TwoLineVerticalGap=Two Lines' Spacing
 
+WhenUnSyncedLyricsFound=For Lyrics that are Not Synchronized
+WhenUnSyncedLyricsFound_DoNotShow=Don't Show Them
+WhenUnSyncedLyricsFound_Play=Play with Current Play Style
+WhenUnSyncedLyricsFound_StackVertically=Stack Them Vertically
+WhenUnSyncedLyricsFound_StackHorizontally=Stack Them Horizontally
+
 TextShadowGroupTitle=Text Shadow Settings
 EnableAsk=Enable?
 ShadowImpl=Shadow Implementation (Advanced)
@@ -64,8 +70,6 @@ Off=Off
 On=On
 
 MiscellaneousGroupTitle=Miscellaneous
-PlayNonSynchronizedLyrics=Play Non-Synchronized Lyrics
-PlayNonSynchronizedLyricsDescription=Enable this if you'd like lyrics without timestamps to play\nThis preference takes effect after playback restarts
 Show=Show
 Hide=Hide
 
