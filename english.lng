@@ -113,3 +113,7 @@ WebViewNavigationFailure=Edge WebView2 failed to navigate >.< Check if you have 
 BtnOpenPreferenceWindow=Open Preferences Window
 BtnResetLyricsWindowLocation=Reset Lyrics Playing Window's Position and Dimension
 BtnDisableClickThrough=Disable Lyrics Playing Window Click-Through
+
+[FL_IssueMessage]
+DotnetNotInstalled=.NET Desktop Runtime {0} is not installed >.<\n Would you like to go download? ({1})
+LoadFailure=Failed to load plugin! Error Code: 0x{0}\nTo troubleshoot, please confirm\n1. If .NET Desktop Runtime {1} was installed correctly;\n2. If there is any other plugin causing confliction.\nFeel free to reach developer({2}) on AIMP forum or Github if problem still exists, thank you!

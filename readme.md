@@ -22,11 +22,29 @@ It has these features:
 
 ### How to Install & Use
 
-To install and use this plugin,
+#### **Since v1.3.2:**
+
+Plugin' file name looks like "aimp_floating_lyrics_x86_64_net[DOTNET_RUNTIME_VERSION]\_ver\_[VERSION].aimppack" since this version.
+
+Be sure to install corresponding version of dotnet runtime(`DOTNET_RUNTIME_VERSION`) first (You only need to install one of the files listed below):
+
+> .NET 8.0 Desktop Runtime (`DOTNET_RUNTIME_VERSION = net8.0`):
+>
+> - for AIMP x64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.29-windows-x64-installer
+> - for AIMP x86: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.29-windows-x86-installer
+>
+> .NET 10.0 Desktop Runtime (`DOTNET_RUNTIME_VERSION = net10.0`):
+>
+> - for AIMP x64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-10.0.10-windows-x64-installer
+> - for AIMP x86: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-10.0.10-windows-x86-installer
+
+Plugin files are released as `.aimppack` format, you can easily install them with AIMP's built-in install button.
+
+#### **Prior to v1.3.2:**
 
 1. Download and install ".NET 8.0 Desktop Runtime":
-    - for AIMP x64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.28-windows-x64-installer
-    - for AIMP x86: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.28-windows-x86-installer
+    - for AIMP x64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.29-windows-x64-installer
+    - for AIMP x86: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.29-windows-x86-installer
 
 2. ~~Download and install "Visual C++ Redistributable 2012" from https://www.microsoft.com/en-us/download/details.aspx?id=30679, make sure to pick x86 or x64, which depends on AIMP x86 or x64 your are using. (a known issue listed below also mentions this runtime package, if you are not sure, I recommend you just download and install it);~~
 
@@ -68,6 +86,26 @@ Try launching AIMP after that, plugin should work now.
 ![Configuration Panel in AIMP](/screenshots/configuration_panel_in_AIMP.jpg)
 
 ### Change Logs
+
+#### 1.3.2 (2026.07.19)
+
+> Since this version, plugin will be mainly dispatched as `.aimppack` formats, to get plugin files without installation, rename it to `.zip`.
+
+- Feat: Add a preference to control non-synchronized lyrics playing behavior, user can choose to stack such lyrics vertically(default behavior) or horizontally, play with current play style(old behavior), or even do not show them at all (Suggested by many people including Soolo, Kenji Wolfgang)
+- Fix: Under karaoke mode, some font text gets incorrectly truncated at the edge, e.g. character `g`'s tail gets truncated on some fonts
+- Fix: Incorrect theme color under AIMP 6
+- Optimize: Lyrics Editor now reads non-synchronized lyrics
+- Optimize: Add a gatekeeper layer which prevents plugin from crashing if corresponding .NET Desktop Runtime is not installed or plugin confliction occurs, a notification will be displayed at that time, which is friendly for new users
+- Add(CI): As .NET 8 will soon reach its end-of-support date, plugin files targeting .NET 10 is added since this release. It is recommended to install .NET Desktop Runtime 10 and use corresponding plugin files
+- Optimize: Dispose webview process completely if user closes lyrics playing window
+- Other minor optimizations
+
+#### 1.3.1 (2026.07.05)
+
+- Feat(#7): Allow "Fade Animation Max Duration" preference of One Line Fade-In-Out play style able to be set down to 0, at that time, lyrics player acts like movie subtitle player (Suggested by **@The-Fae-Sorceress**)
+- Feat: Add a preference to disable lyrics playing window always showing on top (Suggested by **Kenji Wolfgang** on AIMP forum)
+- Fix: Letter spacing animation of One Line Fade-In-Out play style will not play the first line after user seeks playback
+- Other minor optimizations
 
 #### 1.3.0 (2026.07.04)
 
