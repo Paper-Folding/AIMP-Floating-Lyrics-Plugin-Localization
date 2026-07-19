@@ -5,32 +5,51 @@
 Name=Plugin Lirik Mengambang
 Abbreviation=Lirik Mengambang
 Toggle=Tombol
+Warning=Peringatan
 
 [FL_Preference]
 ResetDimension=Kembalikan Ukuran Jendela ini
 Preference=Preferensi
 PlayStyleGroupTitle=Style Pemutaran
 PlayStyleOption=Style Pemutaran Lirik
-PlayStyle_FadeInOut= Satu Baris Fade In & Out
+PlayStyle_FadeInOut=Satu Baris Fade In & Out
 PlayStyle_HScroll=Gulir Horizontal
 PlayStyle_TwoLine=Dua Baris Fade In & Out
 Opacity=Opasitas
 InactiveOpacityOption=Opasitas Baris Nonaktif
-FadeDuration=Durasi Maksimal Fade Animasi
-LetterSpacingAnimationSpeed=Kecepatan Animasi Spasi Antar Huruf
-LetterSpacingAnimationSpeedDescription=Dengan mengatur preferensi ke value non-zerp, animasi marquee akan dimatikan sementara spasi antar huruf akan dianimasikan.
+FadeDuration=Kecepatan Animasi Spasi Antar Huruf
+FadeDurationDescription=Dengan mengaturnya ke 0, tidak ada animasi fade yang diaplikasikan, ini bertindak seperti pemutar film bertakarir
+LetterSpacingAnimationSpeed=Kecepatan Animasi Jarak Antar Huruf
+LetterSpacingAnimationSpeedDescription=Dengan mengatur preferensi ke value non-zero, animasi marquee akan dimatikan sementara spasi antar huruf akan dianimasikan.
 TwoLineReverse=Tukar Posisi Dua Baris'
-TwoLineVerticalGap=Pemisah Dua' Baris
+TwoLineVerticalGap=Pemisah Dua' Baris'
+
+WhenUnSyncedLyricsFound=Untuk Lirik yang Tidak Tersinkronkan
+WhenUnSyncedLyricsFound_DoNotShow=Jangan Tampilkan
+WhenUnSyncedLyricsFound_Play=Putar dengan Style Pemutaran Saat Ini
+WhenUnSyncedLyricsFound_StackVertically=Susun Secara Vertikal
+WhenUnSyncedLyricsFound_StackHorizontally=Susun Secara Horizontal
 
 TextShadowGroupTitle=Pengaturan Bayangan Teks
-ToggleTextShadow=Diaktifkan?
+EnableAsk=Aktifkan?
+ShadowImpl=Implementasi Bayangan (Lanjutan)
+ShadowImplDescription=Mode Karaoke hanya bisa di render menggunakan implementasi bayangan "Stroke" 
+Automatic=Otomatis
+Recommended=Rekomendasi
+TextShadowImpl=Teks
+StrokeShadowImpl=Stroke
+BothImpl=Keduanya
 Color=Warna
 OffsetX=Pergeseran Horizontal
 OffsetY=Pergeseran Vertikal
 BlurRadius=Blur Radius
+StrokeShadowGroupTitle=Pengaturan Bayangan Stroke
+StrokeShadowGroupHint=Bayangan Stroke bekerja lebih baik untuk teks stroke
 
 TextStrokeGroupTitle=Pengaturan Teks Stroke
 TextStrokeThickness=Thickness
+TextStrokeOutside=Use Outer Stroke
+TextStrokeOutsideDescription=Garis luar (Outer Stroke) ditampilkan di luar warna teks, sedangkan garis dalam (Inner Stroke) bertindak sebaliknya;\nGaris dalam (Inner Stroke) tidak akan ditampilkan dalam mode Karaoke, preferensi ini selalu diaktifkan saat ini
 
 FontSettingsGroupTitle=Pengaturan Fon
 FontLatin=Fon Latin
@@ -44,14 +63,21 @@ BackgroundColor=Warna Latar
 EdgeFeatherWidth=Lebar Bulu Tepi
 ClickThrough=Melalui-Klik
 AlwaysHideTaskbar=Selalu Sembunyikan di Taskbar
-AlwaysHideTaskbarDescription=[PERINGATAN] Jika fitur ini diaktifkan, jendela lirik mengambang juga akan meminimalkan jika mengklik kanan atas tombol di jendela utama AIMP, untuk mencegah ini, anda bisa meminimalkan AIMP 1. gunakan menu konteks ikon baki - "Minimalkan ke Baki"; 2. Atau dengan mengatur tindakan tetikus apapun(seperti Sekali-Klik) untuk "Tampilkan/Sembunyikan Jendela Utama", dan mimalkan AIMP dengan melakukan hal tersebut.
+AlwaysHideTaskbarDescription=Jika fitur ini diaktifkan, jendela lirik mengambang juga akan meminimalkan jika mengklik kanan atas tombol di jendela utama AIMP, untuk mencegah ini, anda bisa meminimalkan AIMP 1. gunakan menu konteks ikon baki - "Minimalkan ke Baki"; 2. Atau dengan mengatur tindakan tetikus apapun(seperti Sekali-Klik) untuk "Tampilkan/Sembunyikan Jendela Utama", dan mimalkan AIMP dengan melakukan hal tersebut.
 HideWhenNoLyrics=Sembunyikan Jika Tidak Ada Lirik
+ShowOnTopmost=Selalu di Atas
 Off=Nonaktif
 On=Aktif
 
 MiscellaneousGroupTitle=Lain-lain
 Show=Tampilkan
 Hide=Sembunyikan
+
+KaraokeGroupTitle=Pengaturan Karaoke Mode
+KaraokeEnableAsk=Aktifkan Mode Karaoke?
+KaraokeEnableAskDescription=Preferensi lengkap karaoke lainnya ada di panel lain
+KaraokeSpecific=Prefrensi Unggulan Karaoke
+KaraokeTransitionWidth=Lebar Area Transisi Karaoke
 
 Save=Simpan & Terapkan
 Apply=Terapkan
@@ -87,3 +113,7 @@ WebViewNavigationFailure=Edge WebView2 gagal dinavigasikan >.< Periksa jika anda
 BtnOpenPreferenceWindow=Buka Jendela Preferensi
 BtnResetLyricsWindowLocation=Kembalikan Posisi Jendela Pemutaran dan Dimensi
 BtnDisableClickThrough=Nonaktifkan Jendela Pemutaran Lirik Klik-Lanjutkan
+
+[FL_IssueMessage]
+DotnetNotInstalled=.NET Desktop Runtime {0} tidak terinstal >.<\n Anda ingin mengunduhnya? ({1})
+LoadFailure=Gagal memuat plugin! Kode Kesalahan: 0x{0}\nUntuk pemecahan masalah, silahkan konfirmasi\n1. Jika .NET Desktop Runtime {1} sudah terinstal dengan benar;\n2. Jika ada plugin lain yang menyebabkan bentrok.\nJangan ragu untuk menghubungi developer({2}) di forum AIMP atau Github jika masalah masih ada, terima kasih!
