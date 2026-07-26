@@ -1,9 +1,13 @@
-# AIMP Floating Lyrics Plugin - Localization
+<h1 align="center">
+    <img src="icon/brand_icon256.png" alt="Plugin's branch icon" width="200">
+    <br/>
+    AIMP Floating Lyrics Plugin
+</h1>
 
 > Also see [Post on AIMP Forum](https://aimp.ru/forum/index.php?topic=77574.0).
 
 > What's this?  
-> The repo provides AIMP-Floating-Lyrics-Plugin translations.  
+> The repo provides AIMP-Floating-Lyrics-Plugin localization files.  
 > As I'm from China, I only know about Chinese and English. If you are interested, you can help translate this plugin to other languages.
 
 ### About Plugin
