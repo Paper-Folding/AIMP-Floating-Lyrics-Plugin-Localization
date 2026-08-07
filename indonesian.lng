@@ -22,7 +22,10 @@ FadeDuration=Kecepatan Animasi Spasi Antar Huruf
 FadeDurationDescription=Dengan mengaturnya ke 0, tidak ada animasi fade yang diaplikasikan, ini bertindak seperti pemutar film bertakarir
 LetterSpacingAnimationSpeed=Kecepatan Animasi Jarak Antar Huruf
 LetterSpacingAnimationSpeedDescription=Dengan mengatur preferensi ke value non-zero, animasi marquee akan dimatikan sementara spasi antar huruf akan dianimasikan.
-TwoLineReverse=Tukar Posisi Dua Baris'
+TwoLinePlacement=Placement of two lines
+TwoLinePlacement_OppositeEdge=One left, one right
+TwoLinePlacement_OppositeEdgeReverse=One right, one left
+TwoLinePlacement_Center=Center
 TwoLineVerticalGap=Pemisah Dua' Baris'
 
 WhenUnSyncedLyricsFound=Untuk Lirik yang Tidak Tersinkronkan

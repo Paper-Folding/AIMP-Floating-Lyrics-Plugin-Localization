@@ -22,7 +22,10 @@ FadeDuration=Fade Animation Max Duration
 FadeDurationDescription=By setting to 0, no fade animation will be applied, it acts like movie subtitle player
 LetterSpacingAnimationSpeed=Letter Spacing Animation Speed
 LetterSpacingAnimationSpeedDescription=By setting to a non-zero value, marquee animation will be disabled while letter spacing will be animated
-TwoLineReverse=Swap Two Lines' Position
+TwoLinePlacement=Placement of two lines
+TwoLinePlacement_OppositeEdge=One left, one right
+TwoLinePlacement_OppositeEdgeReverse=One right, one left
+TwoLinePlacement_Center=Center
 TwoLineVerticalGap=Two Lines' Spacing
 
 WhenUnSyncedLyricsFound=For Lyrics that are Not Synchronized
