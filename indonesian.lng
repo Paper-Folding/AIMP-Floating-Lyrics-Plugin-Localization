@@ -61,6 +61,7 @@ FontMain=Fon Utama
 FontSize=Ukuran
 Weight=Besar
 LetterSpacing=Huruf Pemisah
+MultiLineTextAlignment=Multi-line Text Alignment
 
 WindowSettingsGroupTitle=Pengaturan Jendela
 BackgroundColor=Warna Latar

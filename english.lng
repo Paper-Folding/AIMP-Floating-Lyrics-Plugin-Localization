@@ -61,6 +61,7 @@ FontMain=Main Font
 FontSize=Size
 Weight=Weight
 LetterSpacing=Letter Spacing
+MultiLineTextAlignment=Multi-line Text Alignment
 
 WindowSettingsGroupTitle=Window Settings
 BackgroundColor=Background Color
