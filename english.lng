@@ -1,4 +1,4 @@
-# Targeting plugin version: 1.3.2
+# Targeting plugin version: 1.3.3
 # Encoding: UTF-8
 
 
@@ -91,12 +91,42 @@ Unit_ms=(ms)
 
 [LyricsEditor]
 Name=Lyrics Editor
+RestoreAsk=You have unsaved edits with current song before, would you like to restore?
+
+ArtistPlaceholder=Artist performing the song
+ComposerPlaceholder=Composer of the song
+Length=Length
+LengthPlaceholder=Length of the song in mm:ss
+Offset=Offset
+OffsetPlaceholder=Lyrics time offset in ms. The value is prefixed with either "+" or "-", with "+" causing lyrics to appear sooner
+By=Lrc By
+ByPlaceholder=Author of the LRC file
+
+LyricsLines=Lyrics Lines
+Insert=Insert
 InsertTimestamp=Insert Timestamp
 InsertTimestampDetail=Insert Timestamp to Current Line
+Replace=Replace
 ReplaceTimestamp=Replace Timestamp
 ReplaceTimestampDetail=Replace Timestamp of Current Line
+Remove=Remove
 RemoveTimestamp=Remove Timestamp
 RemoveTimestampDetail=Remove Timestamp from Current Line
+IncreaseFontSize=Increase Font Size
+DecreaseFontSize=Decrease Font Size
+Replay=Replay Editing Song
+Resume=Resume Playback
+Pause=Pause Playback
+Backward=Backward {0} seconds
+Forward=Forward {0} seconds
+
+CondensedAsk=Condensed?
+CondensedAskDescription=If enabled, lines with identical lyric text will be combined to same line in saved lrc file
+SaveLyrics=Save Lyrics....
+Success=Success
+SuccessSaveMsg=Lyrics file has been saved to {0} !
+Failure=Failure
+FailureSaveMsg=Cannot save lyrics file to {0} with error message {1}
 
 [LyricsPlayingWindow]
 StartEditLyrics=Make / Edit Lyrics
