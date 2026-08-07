@@ -133,6 +133,7 @@ Failure=Failure
 FailureSaveMsg=Cannot save lyrics file to {0} with error message {1}
 
 [LyricsPlayingWindow]
+Name=Lyrics Playing Window
 StartEditLyrics=Make / Edit Lyrics
 ResetPositionAndDimension=Reset Position & Dimension
 CenterHorizontally=Center Window Horizontally

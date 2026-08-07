@@ -133,6 +133,7 @@ Failure=Failure
 FailureSaveMsg=Cannot save lyrics file to {0} with error message {1}
 
 [LyricsPlayingWindow]
+Name=Lyrics Playing Window
 StartEditLyrics=Buat / Sunting Lirik
 ResetPositionAndDimension=Kembalikan Posisi & Dimensi
 CenterHorizontally=Jendela Horizontal Tengah
