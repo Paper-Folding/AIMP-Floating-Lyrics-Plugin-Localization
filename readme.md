@@ -17,12 +17,12 @@ It has these features:
 
 1. It plays synchronized lyrics file(currently only supports ".lrc" file format with UTF-8 or ASCII encoding) for your song, it reads from your local lrc file alongside with your song file, or if your song file has synchronized lyrics embedded(like ID3v2 tag supported by AIMP), it will also play it;
 2. For playing lyrics, you can style text color, text size, text shadow and more, I have written a preference window to configure these(and more configurations will be brought in the future updates);
-3. For playing lyrics, currently I designed 2 playing styles, one is to fade in fade out lyrics text, another style is to scroll lyrics horizontally;
+3. For playing lyrics, currently I implemented 3 playing styles, one-line fade in fade out lyrics text, scroll horizontally and two-line;
 4. You can make or edit your own ".lrc" file, just right click the playing lyrics window, choose "Make / Edit Lyrics". Or in AIMP playlist, right click playlist item(aka, songs in your library), choose "Send to - Lyrics Editor".
-5. About the lyrics editor, when it opens, it will fill basic information automatically if it finds that, otherwise, you need to input information yourself.
+5. About the lyrics editor, when it opens, it will fill basic information automatically if possible, otherwise, you should input information yourself.
 6. Some hint to use the lyrics editor: Currently I exposed 3 hotkeys to inert/replace/delete timestamp on active line, they are bound with F7/F8/F9 keys globally by default. You can always change these hotkeys in AIMP's "Hotkeys" configuration, but remember, local hotkeys won't work, because the lyrics editor is not recognized by AIMP as local window. The inserted or replaced timestamp is always the timestamp that AIMP is current playing at, so ideally you just play the song once and inserted timestamps all by yourself. There are also some handy buttons there, you can hover on them to see brief descriptions.
 
-\*Tip: you can set lyrics playing window's background color to a totally transparent value, which looks fancy, but it will make context menu harder to open, if you really can't fetch context menu at that time, go to AIMP's "preferences - Floating Lyrics", you can open plugin's preference window there.
+\*Tip: you can set lyrics playing window's background color to a totally transparent value, which looks fancy, however, even though it is transparent, it is not transparent for mouse clicks, which may cause some inconvenience. There is a workaround(since v1.3.0) when mouse hovers at that time, background will become less transparent. You can also enable click-through to prevent this.
 
 ### How to Install & Use
 
@@ -44,6 +44,8 @@ Be sure to install corresponding version of dotnet runtime(`DOTNET_RUNTIME_VERSI
 
 Plugin files are released as `.aimppack` format, you can easily install them with AIMP's built-in install button.
 
+> .NET 8.0 releases may be removed in the future version if .NET 8 reaches end-of-life, so it is recommended to install .NET 10.0 Desktop Runtime from now on.
+
 #### **Prior to v1.3.2:**
 
 1. Download and install ".NET 8.0 Desktop Runtime":
@@ -59,12 +61,7 @@ You no longer need to install VC++ 2012 since v1.2.4, plugin has already include
 
 ### Troubleshooting
 
-~~1. If AIMP complains about an external exception when opening preference window, that's because my plugin is importing "msvcr110.dll" to make sure .net UI is compatible with AIMP's Delphi UI,~~  
-~~when that happens, make sure to download and install "Visual C++ Redistributable 2012" here: https://www.microsoft.com/en-us/download/details.aspx?id=30679, plugin should work properly then.~~
-
-You no longer need to install VC++ 2012 since v1.2.4, plugin has already included necessary files.
-
-2. In some cases, AIMP might disable the plugin so you won't be able to use the plugin in AIMP, you can follow these steps to fix:
+In some cases, AIMP might disable the plugin so you won't be able to use the plugin in AIMP, you can follow these steps to fix:
 
 > i. Make sure to close AIMP instance before proceed;  
 > ii. Open "AIMP.ini" file within "[your-AIMP-installation-directory]/Profile" directory, search and delete these lines (it may differ from your file, but should look similar):
@@ -90,6 +87,11 @@ Try launching AIMP after that, plugin should work now.
 ![Configuration Panel in AIMP](/screenshots/configuration_panel_in_AIMP.jpg)
 
 ### Change Logs
+
+#### 1.3.2.1 (2026.07.23)
+
+- Fix(#10, AIMP6): Plugin's newly added gatekeeper layer failed to load underlying .NET plugin on AIMP6
+- Feat(#9): Add Indonesian Localization (by @naturbrilian)
 
 #### 1.3.2 (2026.07.19)
 
