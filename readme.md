@@ -88,6 +88,22 @@ Try launching AIMP after that, plugin should work now.
 
 ### Change Logs
 
+#### 1.3.3 (2026.08.08)
+
+> This is majorly a maintenance version which introduces UI automation tests, which helps identify bugs.
+
+- Feat: Happy to announce that plugin's brand icon is finally added, which is designed by **杨桃 Yiting**
+- Feat: Add about dialog, so there is a place to show plugin's icon and credits
+- Feat: Preference window now adds "reset to default" buttons for each group
+- Feat: Add localization file entries for Lyrics Editor
+- Feat: Add a preference to configure text alignment for multi-language lyrics
+- Feat: Add a preference to configure two-line placement(center, left-right or right-left) for Two-line play style, thus "two-line reverse" preference is dropped
+- Feat: Aware of precise lyrics(or enhanced lyrics with A2 extension), precise timestamps will only be removed at current version, (in future version, karaoke mode will add support for it)
+- Fix: Fade duration preference not being applied immediately when "Apply" button is clicked
+- Optimize (Better with lyrics playing window positioning): reset itself back to edge of screen instead of center screen if its position is out of screen when startup
+- Optimize (Preference Saving logic): Preference with default value no longer writes to "AIMP.ini"
+- Other minor optimizations and fixes
+
 #### 1.3.2.1 (2026.07.23)
 
 - Fix(#10, AIMP6): Plugin's newly added gatekeeper layer failed to load underlying .NET plugin on AIMP6
@@ -97,7 +113,7 @@ Try launching AIMP after that, plugin should work now.
 
 > Since this version, plugin will be mainly dispatched as `.aimppack` formats, to get plugin files without installation, rename it to `.zip`.
 
-- Feat: Add a preference to control non-synchronized lyrics playing behavior, user can choose to stack such lyrics vertically(default behavior) or horizontally, play with current play style(old behavior), or even do not show them at all (Suggested by many people including Soolo, Kenji Wolfgang)
+- Feat: Add a preference to control non-synchronized lyrics playing behavior, user can choose to stack such lyrics vertically(default behavior) or horizontally, play with current play style(old behavior), or even do not show them at all (Suggested by many people including Soolo and Kenji Wolfgang)
 - Fix: Under karaoke mode, some font text gets incorrectly truncated at the edge, e.g. character `g`'s tail gets truncated on some fonts
 - Fix: Incorrect theme color under AIMP 6
 - Optimize: Lyrics Editor now reads non-synchronized lyrics
