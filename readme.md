@@ -88,6 +88,9 @@ Try launching AIMP after that, plugin should work now.
 
 ### Change Logs
 
+#### 1.3.3.1 (2026.08.10)
+- Fix: Add back missing lyrics scroll window resizing resources before v1.3.3, they are accidentally removed by me while enhancing WPF.UI related resources in v1.3.3
+
 #### 1.3.3 (2026.08.08)
 
 > This is majorly a maintenance version which introduces UI automation tests, which helps identify bugs.
