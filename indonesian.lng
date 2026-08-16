@@ -155,3 +155,14 @@ BtnDisableClickThrough=Nonaktifkan Jendela Pemutaran Lirik Klik-Lanjutkan
 [FL_IssueMessage]
 DotnetNotInstalled=.NET Desktop Runtime {0} tidak terinstal >.<\n Anda ingin mengunduhnya? ({1})
 LoadFailure=Gagal memuat plugin! Kode Kesalahan: 0x{0}\nUntuk pemecahan masalah, silahkan konfirmasi\n1. Jika .NET Desktop Runtime {1} sudah terinstal dengan benar;\n2. Jika ada plugin lain yang menyebabkan bentrok.\nJangan ragu untuk menghubungi developer({2}) di forum AIMP atau Github jika masalah masih ada, terima kasih!
+
+[FL_About]
+PluginDescription=Play, make or edit synchronized lyrics for playing song on floating window.
+IconDesign=Plugin Icon Designed by
+MyWish=Hope you enjoy my plugin! :)
+Translations=Translations Contributor
+SpecialThanksTo=Special Thanks To
+SpecialThank=she sings, and continue singing for us all along the way!
+Support1=If you like my plugin, you can support my work by giving the Github repository a star:
+Support2=Plugin will become open-source at some point, thank you for your support!
+LibraryUsed=Software Libraries Used

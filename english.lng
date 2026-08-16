@@ -155,3 +155,14 @@ BtnDisableClickThrough=Disable Lyrics Playing Window Click-Through
 [FL_IssueMessage]
 DotnetNotInstalled=.NET Desktop Runtime {0} is not installed >.<\n Would you like to go download? ({1})
 LoadFailure=Failed to load plugin! Error Code: 0x{0}\nTo troubleshoot, please confirm\n1. If .NET Desktop Runtime {1} was installed correctly;\n2. If there is any other plugin causing confliction.\nFeel free to reach developer({2}) on AIMP forum or Github if problem still exists, thank you!
+
+[FL_About]
+PluginDescription=Play, make or edit synchronized lyrics for playing song on floating window.
+IconDesign=Plugin Icon Designed by
+MyWish=Hope you enjoy my plugin! :)
+Translations=Translations Contributor
+SpecialThanksTo=Special Thanks To
+SpecialThank=she sings, and continue singing for us all along the way!
+Support1=If you like my plugin, you can support my work by giving the Github repository a star:
+Support2=Plugin will become open-source at some point, thank you for your support!
+LibraryUsed=Software Libraries Used
