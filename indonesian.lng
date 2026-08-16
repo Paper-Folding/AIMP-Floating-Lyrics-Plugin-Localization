@@ -123,6 +123,8 @@ Resume=Resume Playback
 Pause=Pause Playback
 Backward=Backward {0} seconds
 Forward=Forward {0} seconds
+Caching=Caching....
+Cached=Cached
 
 CondensedAsk=Condensed?
 CondensedAskDescription=If enabled, lines with identical lyric text will be combined to same line in saved lrc file
