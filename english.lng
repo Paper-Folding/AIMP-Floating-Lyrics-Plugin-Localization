@@ -5,7 +5,6 @@
 [FL_Main]
 Name=Floating Lyrics Plugin
 Abbreviation=Floating Lyrics
-Toggle=Toggle
 Warning=Warning
 
 [FL_Preference]
@@ -67,6 +66,7 @@ WindowSettingsGroupTitle=Window Settings
 BackgroundColor=Background Color
 EdgeFeatherWidth=Edge Feather Width
 ClickThrough=Click-Through
+ToggleClickThrough=Toggle Click Through
 AlwaysHideTaskbar=Always Hide on Taskbar
 AlwaysHideTaskbarDescription=If this feature is enabled, lyrics floating window will also minimize if you clicked top-right minimize button on AIMP's main window, to prevent this, you can minimize AIMP by\n1. Using tray icon context menu - "Minimize to Tray";\n2. Setting tray icon's any mouse action(like One-Click) to "Show/Hide the Main Window", and minimize AIMP by doing so.
 HideWhenNoLyrics=Hide if No Lyrics
