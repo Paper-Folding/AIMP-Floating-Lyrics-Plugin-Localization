@@ -88,7 +88,21 @@ Try launching AIMP after that, plugin should work now.
 
 ### Change Logs
 
+#### 1.3.4 (2026.08.16)
+
+- Feat: Introduce dark/light theme for sub-windows(preference window and etc.), currently it follows AIMP's night mode preference
+- Feat(windows 11 only): Sub-windows now sets mica backdrop as default
+- Feat: Ever annoyed by the fact that lyrics playing window will reload after preference applied? Good news is, since this release, only partial preferences will trigger the reloading(which is necessary)
+- Feat: Add "toggle click-through" on lyrics playing window's context menu
+- Fix: Incorrect position calculation when two-line placement is "center"
+- Fix: Plugin crashes if lyrics playing window and preference window are both open
+- Optimize: As automation tests go further, crash is spotted on a fresh new windows installation, that's because a basic Visual C++ Redistributable installation is still required, to get away trouble installing it, plugin has added required dlls(msvcp*.dll and vcruntime*.dll), for more details, please refer to https://learn.microsoft.com/en-us/cpp/windows/determining-which-dlls-to-redistribute?view=msvc-170
+- Chore(dep): Upgrade "Microsoft.Web.WebView2" to 1.0.4129.50
+- Chore: change lyrics playing window's default background to black, which in my opinion looks better
+- Other minor optimizations and fixes
+
 #### 1.3.3.1 (2026.08.10)
+
 - Fix: Add back missing lyrics scroll window resizing resources before v1.3.3, they are accidentally removed by me while enhancing WPF.UI related resources in v1.3.3
 
 #### 1.3.3 (2026.08.08)
