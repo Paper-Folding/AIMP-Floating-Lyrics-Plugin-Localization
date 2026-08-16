@@ -34,13 +34,13 @@ Be sure to install corresponding version of dotnet runtime(`DOTNET_RUNTIME_VERSI
 
 > .NET 8.0 Desktop Runtime (`DOTNET_RUNTIME_VERSION = net8.0`):
 >
-> - for AIMP x64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.29-windows-x64-installer
-> - for AIMP x86: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.29-windows-x86-installer
+> - for AIMP x64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.30-windows-x64-installer
+> - for AIMP x86: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.30-windows-x86-installer
 >
 > .NET 10.0 Desktop Runtime (`DOTNET_RUNTIME_VERSION = net10.0`):
 >
-> - for AIMP x64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-10.0.10-windows-x64-installer
-> - for AIMP x86: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-10.0.10-windows-x86-installer
+> - for AIMP x64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-10.0.11-windows-x64-installer
+> - for AIMP x86: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-10.0.11-windows-x86-installer
 
 Plugin files are released as `.aimppack` format, you can easily install them with AIMP's built-in install button.
 
@@ -49,8 +49,8 @@ Plugin files are released as `.aimppack` format, you can easily install them wit
 #### **Prior to v1.3.2:**
 
 1. Download and install ".NET 8.0 Desktop Runtime":
-    - for AIMP x64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.29-windows-x64-installer
-    - for AIMP x86: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.29-windows-x86-installer
+    - for AIMP x64: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.30-windows-x64-installer
+    - for AIMP x86: https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-8.0.30-windows-x86-installer
 
 2. ~~Download and install "Visual C++ Redistributable 2012" from https://www.microsoft.com/en-us/download/details.aspx?id=30679, make sure to pick x86 or x64, which depends on AIMP x86 or x64 your are using. (a known issue listed below also mentions this runtime package, if you are not sure, I recommend you just download and install it);~~
 
