@@ -26,6 +26,8 @@ TwoLinePlacement_OppositeEdge=One left, one right
 TwoLinePlacement_OppositeEdgeReverse=One right, one left
 TwoLinePlacement_Center=Center
 TwoLineVerticalGap=Pemisah Dua' Baris'
+IgnoreEmptyLine=Ignore Empty Lyrics Line
+IgnoreEmptyLineDescription=*It won't affect karaoke mode
 
 WhenUnSyncedLyricsFound=Untuk Lirik yang Tidak Tersinkronkan
 WhenUnSyncedLyricsFound_DoNotShow=Jangan Tampilkan

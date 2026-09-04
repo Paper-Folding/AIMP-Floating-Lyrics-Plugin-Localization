@@ -26,6 +26,8 @@ TwoLinePlacement_OppositeEdge=One left, one right
 TwoLinePlacement_OppositeEdgeReverse=One right, one left
 TwoLinePlacement_Center=Center
 TwoLineVerticalGap=Two Lines' Spacing
+IgnoreEmptyLine=Ignore Empty Lyrics Line
+IgnoreEmptyLineDescription=*It won't affect karaoke mode
 
 WhenUnSyncedLyricsFound=For Lyrics that are Not Synchronized
 WhenUnSyncedLyricsFound_DoNotShow=Don't Show Them
