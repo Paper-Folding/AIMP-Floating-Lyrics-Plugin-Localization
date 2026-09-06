@@ -95,7 +95,7 @@ Unit_ch=(char)
 Unit_px_per_s=(px/s)
 Unit_ms=(ms)
 
-[LyricsEditor]
+[FL_Editor]
 Name=Penyunting Lirik
 RestoreAsk=You have unsaved edits with current song before, would you like to restore?
 

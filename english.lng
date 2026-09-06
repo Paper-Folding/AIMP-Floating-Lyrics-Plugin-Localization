@@ -95,7 +95,7 @@ Unit_ch=(char)
 Unit_px_per_s=(px/s)
 Unit_ms=(ms)
 
-[LyricsEditor]
+[FL_Editor]
 Name=Lyrics Editor
 RestoreAsk=You have unsaved edits with current song before, would you like to restore?
 
@@ -136,7 +136,7 @@ SuccessSaveMsg=Lyrics file has been saved to {0} !
 Failure=Failure
 FailureSaveMsg=Cannot save lyrics file to {0} with error message {1}
 
-[LyricsPlayingWindow]
+[FL_Play]
 Name=Lyrics Playing Window
 StartEditLyrics=Make / Edit Lyrics
 ResetPositionAndDimension=Reset Position & Dimension
