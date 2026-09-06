@@ -136,7 +136,7 @@ SuccessSaveMsg=Lyrics file has been saved to {0} !
 Failure=Failure
 FailureSaveMsg=Cannot save lyrics file to {0} with error message {1}
 
-[LyricsPlayingWindow]
+[FL_Play]
 Name=Lyrics Playing Window
 StartEditLyrics=Buat / Sunting Lirik
 ResetPositionAndDimension=Kembalikan Posisi & Dimensi
@@ -144,6 +144,10 @@ CenterHorizontally=Jendela Horizontal Tengah
 EnableResizing=Aktikan Ubah Ukuran
 DisableResizing=Matikan Ubah Ukuran
 OpenPreference=Preferensi....
+Encoding=Character Encoding
+EncodingAuto=Auto Detection
+EncodingInternational=International
+PerFileEncoding=Set Encoding Per-file
 WebViewNotInstalled=Edge WebView2 is tidak terinstal di sistem anda, apakah anda ingin mengunduhnya?
 WebViewNotInstalled2=Edge WebView2 tidak terinstal di sistem anda, plugin mungkin tidak akan bekerja >.<, anda bisa mengunduh dan menginstalnya dari
 WebViewLowVersion=Anda menggunakan versi lama({0} < 124) dari Edge WebView2, mungkin Plugin Lirik Mengambang tidak berfungsi sebagai mana mestinya. Anda bisa mencoba untuk memperbarui Peramban Edge anda.
